@@ -12,4 +12,4 @@ jobs:
       - name: Show image info
         run: docker images
       - name: Test lsyncd is installed
-        run: docker run lsyncd lsyncd -help
+        run: docker run lsyncd lsyncd -version
