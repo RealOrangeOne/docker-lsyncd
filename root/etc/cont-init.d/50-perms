@@ -2,3 +2,7 @@
 
 chown -R abc:abc /config
 chown -R abc:abc /config/.ssh
+
+chmod 700 /config/.ssh
+chmod -R 600 /config/.ssh/*
+chmod -R 644 /config/.ssh/*.pub
